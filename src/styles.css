@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* font-family: 'Akronim', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Josefin Sans', sans-serif; */
+
+body{
+    font-family: 'Bitter', serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+}
+
+.error{
+    color: #f00;
+}

@@ -1,0 +1,16 @@
+.row{
+    margin: 10px auto;
+}
+
+.button-fix{
+    background: #FF8C00;
+    color: cornsilk;
+}
+
+.modal-title{
+    color: #FF8C00
+}
+
+.fa-minus-circle{
+    cursor: pointer;
+}

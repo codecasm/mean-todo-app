@@ -1,0 +1,29 @@
+<h2>My Pending ToDos</h2>
+
+<div class="row">
+  <div class="col-12">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Todo Task</th>
+          <th scope="col">Status</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let todo of todos;index as i">
+          <tr *ngIf="todo.status===false">
+            <th scope="row">{{i+1}}</th>
+            <td>{{todo.task}}</td>
+            <td>{{todo.status?'Done':'Pending'}}</td>
+            <td>
+              <input type="checkbox" (click)="markAsDone(todo)">
+              <!-- <i class="fas fa-minus-circle ml-2 error" (click)="delete(todo._id)"></i>  -->
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+</div>
