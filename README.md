@@ -12,6 +12,6 @@ A Todo list App in MEAN
 </ul>
 
 # Screenshot of start screen after running applicaton
-<img src="https://lh4.googleusercontent.com/qxoeIZjg6Db8vF4ANHNARWt5pUQgm5dargMItJMrmIze4j3ZE9mkq1fkfKCnGhq12w_p5Td5hwg2uz_I24b-=w1530-h801-rw">
+<img src="https://github.com/codecasm/mean-todo-app/blob/master/src/assets/demo%20ss%20for%20mean%20todo%20app.png" width="100%">
 
 # All the best ..!!
